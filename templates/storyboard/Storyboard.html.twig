@@ -5,6 +5,27 @@
 
 {% block body %}
 
+<div class = "row no-gutters">
+    {% for i in 0..11 %}
+        <div class = "col-12 col-lg-3 p-1">
+            <div class="card mb-3">
+                <div row no-gutters align-items-center p-2>
+                    <div class="col-12 col-md4-">
+                        <button> Charger image </button>
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                            <h5 class="card-title">Titre du croquis </h5>
+                            <p>Quelques détails</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+
 
 
 
